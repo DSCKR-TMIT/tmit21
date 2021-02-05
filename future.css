@@ -10,12 +10,23 @@ body {
     padding: 0;
 }
 
-.top-container {
-    display: flex;
-    width: auto;
-    height: 96px;
+label.header {
     background-color: #F3ED70;
-}
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    height: 30px;
+    padding: 1rem;
+    color: #343434;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 
 .top-nav-title {
     display: inline;
@@ -24,16 +35,15 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-/* .half-circle {
-    height: 100px * 2;
-    width: 80px;
-    border-bottom-left-radius: 80px * 2;
-    border-top-left-radius: 80px * 2;  
-    background-color: #F3ED70;
-} */
-
 .main-container {
-    display: inline-block;
+    display: flex;
+}
+
+.main-top {
+    padding-left: 400px;
+    width: 1920px;
+    justify-content: center;
+    align-items: center;
 }
 
 .tape {
@@ -72,7 +82,7 @@ body {
 
 .graph:before, .graph:after {
     position: absolute;
-    top: 5px;
+    top: 1px;
 }
 
 .graph:before {
@@ -92,9 +102,42 @@ body {
 }
 
 .graph {
+    margin-top: 100px;
+}
+
+.graph-img {
+    width: 600px;
+    height: 280px;
+}
+.graph-info {
     margin-left: 20px;
-    margin-top: 45px;
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    transform: rotate(5deg);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 11px;
+    color: white;
+}
+
+.right {
+    display: inline-block;
+    top: 0;
+    margin-top: 35px;
+    border: 2px solid pink;
+}
+
+.forecast-container {
+    border: 2px solid hotpink;
+}
+
+.forecast {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    border: 2px solid red;
+}
+
+.forecast-temperature {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 55px;
+}
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
 }
