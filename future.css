@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    background-color: #1DCC8D;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-container {
+    display: flex;
+    width: auto;
+    height: 96px;
+    background-color: #F3ED70;
+}
+
+.top-nav-title {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* .half-circle {
+    height: 100px * 2;
+    width: 80px;
+    border-bottom-left-radius: 80px * 2;
+    border-top-left-radius: 80px * 2;  
+    background-color: #F3ED70;
+} */
+
+.main-container {
+    display: inline-block;
+    
+}
+
+.tape {
+    position: relative;
+    text-align: center;
+    display: inline-block; *display: inline; zoom: 1;
+    margin: 20px auto 10px;
+}
+
+.graph:before, .graph:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    background: #F3ED70;;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+.tape img {
+    display: inline-block; *display: inline; zoom: 1;
+    border: 1px solid #ddd;
+    margin: 0 20px;
+    padding: 8px;
+    background: #fff;
+    text-align:center;
+    vertical-align:top;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+.graph:before, .graph:after {
+    position: absolute;
+    top: 5px;
+}
+
+.graph:before {
+    left: 0;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.graph:after {
+    top: inherit;
+    bottom: 2px;
+    right: 0;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+
+.graph {
+    margin-left: 20px;
+    margin-top: 45px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
