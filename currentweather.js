@@ -15,7 +15,7 @@ function getWeather(lat, lng){
             const place = json.name;
             const pastweather = (temperature+2.4).toFixed(2);
             weatherTitle.innerText = `${place}, KR`;
-            pastTitle.innerText = `${pastweather} °C`;
+            pastTitle.innerText = `현재 온도는 ${temperature} °C 입니다`;
         })
 }
 

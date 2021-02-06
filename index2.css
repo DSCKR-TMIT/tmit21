@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+
 label.header{
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-
     height: 30px;
     padding: 1rem;
     background:#F3ED70;
@@ -16,9 +17,18 @@ label.header{
     align-items: center;
   }
 
+header h1{
+    position:relative;
+    top:0;
+    left:0;
+    font-size: 50px;
+    color:#F3ED70;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+    letter-spacing: 0.3em;
+}
 body{
     background-color: #1DCC8D;
-    padding-top: 75px;
 }
 #content{
     height: 100%; 
@@ -37,8 +47,8 @@ body{
     box-sizing: border-box;
     border-radius: 50px;
     text-align: center;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     padding:60px 0px;
 }
 #subsection{
@@ -48,17 +58,14 @@ body{
     justify-content: center;
     align-items: center;
     margin-top:5%;
-    margin-bottom:5%;
+    margin-bottom:10%;
 }
 
 
 #article{    
     padding:20px;
-    width: 80%;
+    width: 70%;
     height: 40%;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 53px;
 }
 footer{
     padding-top: 100px;
@@ -92,4 +99,61 @@ footer{
   
 .js-clock{
     margin-bottom:10%;
+}
+.js-clock h2{
+    font-size:50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+    margin-bottom:10px;
+    margin-top:5%;
+    
+}
+.js-clock h1{
+    font-size:40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.js-weather h2{
+    font-size:40px;
+    margin-bottom:10%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+}
+
+.tr_sub{
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+    letter-spacing: 0.3em;
+}
+.tr_title{
+    font-size: 20px;
+}
+.emo1{
+    position:absolute;
+    left:75%;
+    top:137%;
+    width:15%;
+}
+.emo2{
+    position:absolute;
+    top:137%;
+    width:15%;
+    left:3%;
+}
+
+.emo3{
+    position:absolute;
+    top:150%;
+    width:15%;
+    left:8%;
+}
+
+.emo4{
+    position:absolute;
+    top: 150%;
+    width:15%;
+    left:70%;
 }
