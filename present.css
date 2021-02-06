@@ -29,7 +29,7 @@ label.header{
     color: #262626;
     line-height: 40px;
     }
-
+    a { text-decoration:none } 
 body{
     background-color: #1DCC8D;
     padding-top: 75px;
