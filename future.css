@@ -14,6 +14,27 @@ a {
     text-decoration: none;
 }
 
+/*마우스 클릭시 링크 텍스트 색상 변경 필수*/
+a:link{
+    color: #1DCC8D;
+    background-color: transparent;
+    }
+
+    a:visited {
+    color: #343434;
+    background-color: transparent;
+    }
+
+    a:hover {
+    color: #1DCC8D;
+    background-color: transparent;
+    }
+
+    a:active {
+    color: #1DCC8D;
+    background-color: transparent;
+}
+
 label.header {
     background-color: #F3ED70;
     position: fixed;
