@@ -16,28 +16,27 @@ header h1{
 body{
     background-color: #1DCC8D;
 }
-label.header {
-    background-color: #F3ED70;
-    }
 
 #content{
     height: 100%; 
 }
 #main{
-    padding-top: 60px;
+    padding-top: 20px;
     width: 100%; height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* 시각 상자 */
 #temperature{
     margin: 0 auto;
     background: #F3ED70;
-    border: 3px solid #262626;
+    border: 3px solid #343434;
     box-sizing: border-box;
     border-radius: 50px;
     text-align: center;
-    width: 500px;
+    width: 550px;
     height: 500px;
     padding:50px 0px;
     
@@ -78,84 +77,80 @@ footer{
     margin: 50px;
 }
   h1{
-      color:black;
+      color:#343434;
   }
   h2{
       font-size: 20px;
-      color:black;
+      color:#343434;
   }
   div{
-      color:black;
+      color:#343434;
   }
   
 .js-clock{
     margin-bottom:10%;
 }
+
+/* 날짜 */
 .js-clock h2{
-    font-size:50px;
+    font-size:45px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight:bold;
+    color: #343434;
     margin-bottom:10px;
-    margin-top:5%;
+    margin-top:1px;
     
 }
 .js-clock h1{
-    font-size:40px;
+    font-size:45px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight:bold;
+    color: #343434;
     margin-top:10px;
 }
 
 .js-weather h2{
     font-size:40px;
-    margin-bottom:10%;
+    margin-bottom:18%;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight:bold;
+    color: #343434;
+}
+
+.tr_title{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    letter-spacing: 0.3em;
+    color: #262626;
+    line-height: 40px;
 }
 
 .tr_sub{
     font-size: 15px;
     font-family: 'Noto Sans KR', sans-serif;
-    font-weight:bold;
-    letter-spacing: 0.3em;
-}
-.tr_title{
-    font-size: 20px;
-}
-.emo1{
-    position:absolute;
-    left:75%;
-    top:137%;
-    width:15%;
-}
-.emo2{
-    position:absolute;
-    top:137%;
-    width:15%;
-    left:3%;
+    letter-spacing: 0.15em;
+    line-height: 30px;
 }
 
-.emo3{
-    position:absolute;
-    top:150%;
-    width:15%;
-    left:8%;
+.link{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.15em;
+    line-height: 21px;
 }
 
-.emo4{
-    position:absolute;
-    top: 150%;
-    width:15%;
-    left:70%;
-}
 
 a{
     font-size: 30px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight:bold;
     position:absolute;
+    padding-bottom: 100px;
     top:170%;
-    left:50%;
+    left:40%;
     text-decoration: None;
 }
 
