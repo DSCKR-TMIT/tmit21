@@ -157,3 +157,12 @@ footer{
     width:15%;
     left:70%;
 }
+
+a{
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+    position:absolute;
+    top:170%;
+    left:45%;
+}
