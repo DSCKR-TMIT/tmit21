@@ -10,6 +10,10 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 label.header {
     background-color: #F3ED70;
     position: fixed;
@@ -35,70 +39,15 @@ label.header {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-.main-container {
+.top-container {
     display: flex;
 }
 
 .main-top {
-    padding-left: 400px;
-    width: 1920px;
+    padding-left: 28rem;
+    width: 1000rem;
     justify-content: center;
     align-items: center;
-}
-
-.tape {
-    position: relative;
-    text-align: center;
-    display: inline-block; *display: inline; zoom: 1;
-    margin: 20px auto 10px;
-}
-
-.graph:before, .graph:after{
-    content: "";
-    display: block;
-    width: 100px;
-    height: 25px;
-    position: relative;
-    top: 20px;
-    margin: auto;
-    background: #F3ED70;;
-    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-}
-
-.tape img {
-    display: inline-block; *display: inline; zoom: 1;
-    border: 1px solid #ddd;
-    margin: 0 20px;
-    padding: 8px;
-    background: #fff;
-    text-align:center;
-    vertical-align:top;
-    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
-}
-
-.graph:before, .graph:after {
-    position: absolute;
-    top: 1px;
-}
-
-.graph:before {
-    left: 0;
-    -webkit-transform: rotate(-20deg);
-    -moz-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-}
-
-.graph:after {
-    top: inherit;
-    bottom: 2px;
-    right: 0;
-    -webkit-transform: rotate(-35deg);
-    -moz-transform: rotate(-35deg);
-    transform: rotate(-35deg);
 }
 
 .graph {
@@ -106,38 +55,68 @@ label.header {
 }
 
 .graph-img {
-    width: 600px;
-    height: 280px;
+    width: 35rem;
+    height: 20rempx;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.4);
 }
 .graph-info {
-    margin-left: 20px;
+    margin-top: 0.2rem;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 11px;
     color: white;
 }
 
-.right {
-    display: inline-block;
-    top: 0;
-    margin-top: 35px;
+.bottom-container {
+    display: flex;
+    height: 20rem;
+    margin-top: 1.75rem;
     border: 2px solid pink;
 }
 
-.forecast-container {
-    border: 2px solid hotpink;
-}
-
-.forecast {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 25px;
-    border: 2px solid red;
-}
-
 .forecast-temperature {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 55px;
+    flex: 1;
+    display: inline-block;
+    font-family: "Noto Sans KR", sans-serif;
+    border: 2px solid greenyellow;
 }
 
-p {
-    font-family: 'Nanum Gothic', sans-serif;
+.forecasting {
+    font-size: 18px;
 }
+
+.March-2021 {
+    margin-top: -0.5rem;
+    font-size: 90px;
+    width: max-content;
+}
+
+.temperature-contents {
+    flex: 3;
+    display: inline-block;
+    border: 2px solid coral;
+}
+
+.underline {
+    line-height: 1.2;
+    font-size: 3em;
+    font-weight: 700;
+    background-image: linear-gradient(transparent calc(100% - 3px), #000 3px);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.8s;
+    cursor: pointer;
+  }
+
+  @media (min-width: 1000px) {
+    .underline {
+      font-size: 5em;
+    }
+  }
+  .underline.March-2021 {
+    background-image: linear-gradient(transparent 60%, #F3ED70 40%);
+  }
+  .underline:hover {
+    background-size: 100% 100%;
+  }
