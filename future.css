@@ -88,6 +88,7 @@ label.title {
 
 .graph-title {
     display: block;
+    margin-left: -0.8rem;
 }
 
 .graph-img {
@@ -110,13 +111,14 @@ label.title {
     display: flex;
     height: 15rem;
     margin-top: 3.5rem;
+    padding-right: 5rem;
 }
 
 .forecast-temperature {
     width: 28rem;
     font-family: "Noto Sans KR", sans-serif;
     text-align: right;
-    padding-right: 0.5rem;
+    padding-right: 1rem;
 }
 
 .forecasting {
