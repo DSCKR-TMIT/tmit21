@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    background-color: #1DCC8D;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+label.header {
+    background-color: #F3ED70;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    height: 30px;
+    padding: 1rem;
+    color: #343434;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.top-nav-title {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-top {
+    padding-left: 400px;
+    width: 1920px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tape {
+    position: relative;
+    text-align: center;
+    display: inline-block; *display: inline; zoom: 1;
+    margin: 20px auto 10px;
+}
+
+.graph:before, .graph:after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    background: #F3ED70;;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+.tape img {
+    display: inline-block; *display: inline; zoom: 1;
+    border: 1px solid #ddd;
+    margin: 0 20px;
+    padding: 8px;
+    background: #fff;
+    text-align:center;
+    vertical-align:top;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+
+.graph:before, .graph:after {
+    position: absolute;
+    top: 1px;
+}
+
+.graph:before {
+    left: 0;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.graph:after {
+    top: inherit;
+    bottom: 2px;
+    right: 0;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    transform: rotate(-35deg);
+}
+
+.graph {
+    margin-top: 100px;
+}
+
+.graph-img {
+    width: 600px;
+    height: 280px;
+}
+.graph-info {
+    margin-left: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 11px;
+    color: white;
+}
+
+.right {
+    display: inline-block;
+    top: 0;
+    margin-top: 35px;
+    border: 2px solid pink;
+}
+
+.forecast-container {
+    border: 2px solid hotpink;
+}
+
+.forecast {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    border: 2px solid red;
+}
+
+.forecast-temperature {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 55px;
+}
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+}
