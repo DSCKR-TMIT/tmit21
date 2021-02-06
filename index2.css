@@ -155,7 +155,7 @@ a{
     font-weight:bold;
     position:absolute;
     top:170%;
-    left:48%;
+    left:50%;
     text-decoration: None;
 }
 
@@ -169,7 +169,7 @@ a {
      } 
      
       a:link{
-      color: #1DCC8D;
+      color: #343434;
       background-color: transparent;
       }
 
@@ -184,7 +184,7 @@ a {
       }
 
       a:active {
-      color: #1DCC8D;
+      color: #343434;
       background-color: transparent;
       }
     
