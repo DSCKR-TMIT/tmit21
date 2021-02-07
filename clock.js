@@ -7,6 +7,7 @@ function getTime(){
     const years=date.getFullYear();
     const months=date.getMonth();
     const dates=date.getDate();
+    const dates=date.getDay();
     const minutes = date.getMinutes();
     const hours=date.getHours();
     const seconds=date.getSeconds();
