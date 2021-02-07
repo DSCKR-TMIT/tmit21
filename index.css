@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+
+header h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+    letter-spacing: 0.3em;
+    color: #F3ED70;;
+    line-height: 40px;
+}
+body{
+    background-color: #1DCC8D;
+}
+
+#content{
+    height: 100%; 
+}
+#main{
+    padding-top: 20px;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 시각 상자 */
+#temperature{
+    margin: 0 auto;
+    background: #F3ED70;
+    border: 3px solid #343434;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-align: center;
+    width: 550px;
+    height: 500px;
+    padding:50px 0px;
+    
+}
+#subsection{
+    width: 100%; height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:5%;
+    margin-bottom:10%;
+}
+
+
+#article{    
+    padding:20px;
+    width: 70%;
+    height: 40%;
+}
+footer{
+    padding-top: 100px;
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+}
+
+.a{ 
+    font-style: Noto Sans KR;
+    margin: 50px;
+}
+.b{ 
+    font-style: Noto Sans KR;
+    margin: 50px;
+}
+.c{ 
+    font-style: Noto Sans KR;
+    margin: 50px;
+}
+  h1{
+      color:#343434;
+  }
+  h2{
+      font-size: 20px;
+      color:#343434;
+  }
+  div{
+      color:#343434;
+  }
+  
+.js-clock{
+    margin-bottom:10%;
+}
+
+/* 날짜 */
+.js-clock h2{
+    font-size:45px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+    color: #343434;
+    margin-bottom:10px;
+    margin-top:1px;
+    
+}
+.js-clock h1{
+    font-size:45px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+    color: #343434;
+    margin-top:10px;
+}
+
+.js-weather h2{
+    font-size:40px;
+    margin-bottom:18%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+    color: #343434;
+}
+
+.tr_title{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    letter-spacing: 0.3em;
+    color: #262626;
+    line-height: 40px;
+}
+
+.tr_sub{
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.15em;
+    line-height: 30px;
+}
+
+.link{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.15em;
+    line-height: 21px;
+}
+
+
+a{
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:bold;
+    position:absolute;
+    padding-bottom: 100px;
+    top:170%;
+    left:40%;
+    text-decoration: None;
+}
+
+::selection {
+    background-color: #F3ED70;
+    color: #343434;
+    }
+
+a {
+       text-decoration: none;
+     } 
+     
+      a:link{
+      color: #343434;
+      background-color: transparent;
+      }
+
+      a:visited {
+      color: #343434;
+      background-color: transparent;
+      }
+
+      a:hover {
+      color: #F3ED70;
+      background-color: transparent;
+      }
+
+      a:active {
+      color: #343434;
+      background-color: transparent;
+      }
+    
